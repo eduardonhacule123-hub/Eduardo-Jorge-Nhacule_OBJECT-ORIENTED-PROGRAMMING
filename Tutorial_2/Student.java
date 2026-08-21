@@ -1,29 +1,30 @@
-// Attributes
 class Student {
+
+    // Attributes
     String name;
     int age;
     double gpa;
 
-    // Constructor: To store the values from users
+    // Constructor
     Student(String studentName, int studentAge, double studentGpa) {
         name = studentName;
         age = studentAge;
         gpa = studentGpa;
     }
 
-    // Methods
+    // Method
     public void displayInfo() {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("GPA: " + gpa);
     }
 
-    // Another Methods
+    // Another Method
     public void study() {
         System.out.println(name + " is studying.");
     }
 
-    // Yet Another Methods
+    // Yet Another Method
     public void takeExam() {
         System.out.println(name + " is taking an exam.");
     }
