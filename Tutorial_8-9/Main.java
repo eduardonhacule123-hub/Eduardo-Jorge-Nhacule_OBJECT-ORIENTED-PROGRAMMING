@@ -41,7 +41,6 @@ public class Main {
             System.out.println((i + 1) + ". " + tasks.get(i));
         }
 
-        // ===== SAVE TASKS TO FILE =====
         try {
             BufferedWriter writer = new BufferedWriter(
                     new FileWriter("tasks.txt")
