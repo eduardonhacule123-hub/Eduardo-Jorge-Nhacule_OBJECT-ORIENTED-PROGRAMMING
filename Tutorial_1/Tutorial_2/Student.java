@@ -1,5 +1,3 @@
-package Tutorial_2;
-
 // Attributes
 class Student {
     String name;
